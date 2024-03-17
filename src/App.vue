@@ -1,16 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import SiteNavigation from './components/SiteNavigation.vue'
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <header>
-
-    <div class="flex justify-center">
-      <div class="text-xl font-light font-Mitr">
-        สวัสดีครับ
-      </div>
-    </div>
-  </header>
-
+  <div class="flex flex-col min-h-screen font-Mitr">
+    <SiteNavigation />
+    <RouterView />
+  </div>
 </template>
