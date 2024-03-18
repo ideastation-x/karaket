@@ -2,15 +2,15 @@
     <div class="flex pt-10 flex-col justify-center items-center bg-[url('@/assets/bg-6.webp')] bg-cover">
         <div class="lg:container px-10 2xl:px-24">
             <div class="flex flex-col justify-center items-center gap-4 font-light text-white">
-                <div class="text-5xl font-medium">
-                    นวดแก้อาการโดยอาจารย์มากประสบการณ์กว่า {{ year.number.toFixed(0) }} ปี
+                <div class="text-4xl font-medium">
+                    เปิดบ้านนวดแก้อาการโดยอาจารย์มากประสบการณ์กว่า {{ year.number.toFixed(0) }} ปี
                 </div>
-                <div class="text-5xl">
+                <div class="text-4xl">
                     นวดรักษาลูกค้าเคสหนักๆหายมาแล้วกว่า {{ tweened.number.toFixed(0) }} คน
                 </div>
-                <div class="text-3xl italic text-blue-300">
+                <div class="text-2xl italic text-blue-300">
                     คุณตระเวนนวดมาหลายร้านแต่ยังไม่หาย
-                    <span class="font-normal">
+                    <span class="font-normal underline underline-offset-8">
                         คุณเจอปัญหานี้ใช่ไหม ?
                     </span>
                 </div>
@@ -85,11 +85,13 @@
             <div
                 class="flex flex-col py-5 bg-zinc-900 text-white w-full font-normal justify-center items-center text-sm lg:text-lg">
                 <div>
-                    นวดบ้านอาจารย์ นวดโดยอาจารย์ชำนาญนวดแก้อาการประสบการณ์กว่า 30 ปี ถ้าคุณนวดมาทุกที่แต่ไม่หาย
+                    ด้วยความเชี่ยวชาญการนวดแก้อาการที่สั่งสมมากว่า 30 ปี ของอาจารย์
                 </div>
                 <div>
-                    นวดบ้านอาจาย์จะเป็นร้านสุดท้ายและคุณจะไม่ไปเสียเวลานวดที่ไหนอีกเลย เพราะ ไม่เคยมีเคสหนักๆ
-                    เคสไหนที่อาจารย์นวดรักษาแล้วไม่ดีขึ้น
+                    ถ้าคุณเป็นเยอะ มีอาการเรื้อรัง นวดที่ไหนก็ไม่หายสักที มาที่นี่
+                    <span class="underline underline-offset-8 italic font-medium">
+                        นวดบ้านอาจารย์ กล้าการันตี
+                    </span>
                 </div>
             </div>
         </div>
