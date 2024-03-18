@@ -1,6 +1,6 @@
 <template>
-    <header class="sticky top-0 bg-zinc-900">
-        <div class="container mx-auto flex justify-between font-thin text-md p-3 text-white">
+    <header class="sticky top-0 z-10 bg-zinc-900">
+        <div class="container mx-auto 2xl:px-24 flex justify-between font-thin text-md py-2 text-white">
             <div class="font-light text-xl flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1.2rem" fill="#fff"
                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -16,9 +16,9 @@
                 TH | EN
             </div>
         </div>
-        <div class="bg-zinc-600 hidden md:flex">
+        <div class="bg-zinc-500 hidden md:flex shadow-lg">
             <nav
-                class="container mx-auto flex flex-col sm:flex-row items-center gap-10 font-thin py-2 p-3 text-white shadow-lg">
+                class="container mx-auto 2xl:px-24 flex flex-col sm:flex-row items-center gap-10 font-thin py-1 text-white">
                 <RouterLink :to="{ name: 'home' }">
                     <div class="transition hover:underline hover:underline-offset-4">
                         หน้าแรก
